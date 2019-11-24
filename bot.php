@@ -1,3 +1,4 @@
+
 <?php
 require 'load.php';
 
@@ -81,7 +82,7 @@ foreach( $queries as $query ) {
 
 			query( 'COMMIT' );
 
-			echo "created $page->pageid";
+			echo "created $page->pageid\n";
 		}
 	}
 
